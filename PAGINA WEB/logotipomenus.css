@@ -1,0 +1,19 @@
+/* estilos.css */
+
+/* Clase para la imagen de inicio */
+img {
+    width: 40px 34px;; /* Ancho de la imagen */
+    height: 34px; /* Ajusta la altura proporcionalmente */
+    display: 24% 20%;
+    position:relative;
+      bottom: 33.6px;
+    right: -30px;
+        
+    transition: transform 0.3s; /* Efecto de transición para el hover */
+}
+
+/* Efecto hover para la imagen */
+ img:hover {
+    transform: scale(1.1); /* Aumenta ligeramente el tamaño cuando pasas el cursor */
+}
+f

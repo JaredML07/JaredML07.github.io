@@ -1,0 +1,75 @@
+/* Estilos para el menú de navegación */
+
+/* Estilos para el contenedor del menú */
+nav {
+    z-index: 1; /* Coloca el menú en una capa inferior */
+     font-family: Arial, sans-serif;
+    background-color: #8da9c4;  /* Color de fondo azul */
+    position: sticky;           /* Fija el menú en la parte superior */
+    top: 0;                     /* Asegura que el menú se quede al tope */
+    z-index: 1000;              /* Asegura que el menú se muestre por encima de otros elementos */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);  /* Sombra suave debajo del menú */
+}
+
+/* Estilos para los elementos de la lista del menú */
+nav ul {
+    z-index: 1; /* Coloca el menú en una capa inferior */
+    list-style: none;  /* Elimina los puntos de lista */
+    display: flex;     /* Usa flexbox para alinear los elementos en fila */
+    justify-content: center;  /* Centra los elementos horizontalmente */
+    padding: 0;        /* Elimina el padding por defecto */
+    margin: 0;         /* Elimina el margen por defecto */
+}
+
+/* Estilos para cada elemento del menú */
+nav ul li {
+    margin: 0 15px;  /* Espaciado horizontal entre los elementos */
+}
+
+/* Estilos para los enlaces */
+nav ul li a {
+    color: white;  /* Color blanco para el texto */
+    text-decoration: none;  /* Elimina el subrayado */
+    font-weight: bold;  /* Negrita en el texto */
+    padding: 10px 15px;  /* Espaciado interno para que los botones sean más grandes */
+    display: inline-block;  /* Hace que el enlace sea un bloque en línea */
+    transition: all 0.3s ease;  /* Transición suave en hover */
+}
+
+/* Efecto de hover para los enlaces */
+nav ul li a:hover {
+    background-color: #0056b3;  /* Cambia el fondo a un azul más oscuro */
+    border-radius: 5px;         /* Bordes redondeados al hacer hover */
+    transform: scale(1.05);      /* Agranda ligeramente el botón */
+}
+
+/* Estilos para los iconos dentro del menú (si usas iconos en el menú) */
+nav ul li a i {
+    margin-right: 8px;  /* Espaciado entre el icono y el texto */
+}
+
+/* Media Query para hacer el menú responsivo en pantallas pequeñas */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;  /* Cambia la dirección del menú a columna */
+        align-items: center;     /* Centra los elementos verticalmente */
+    }
+    nav ul li {
+        margin: 10px 0;  /* Espaciado vertical entre los elementos */
+    }
+}
+  /* Logo de Inicio */
+        .inicio-logo img {
+            height: 60px;
+            position: fixed;
+            top: 15px;
+            left: 15px;
+            z-index: 1001;
+            border-radius: 50%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .inicio-logo img:hover {
+            transform: scale(1.1);
+            transition: all 0.3s ease-in-out;
+        }
+

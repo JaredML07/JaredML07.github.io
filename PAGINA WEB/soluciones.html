@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOLUCIONES</title>
+    <style>
+        /* Estilos generales */
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: bobox;
+        }
+        
+            body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            text-align: center;
+            background: #222;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        .causas {
+            line-height: 1.8; /* Aumenta el espacio entre líneas */
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #006699;
+        }
+
+        .solutions {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .solution-card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        .solution-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .solution-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            top: -10px; /* Distancia desde la parte superior */
+            left: 0px; /* Distancia desde la izquierda */
+        }
+
+        .solution-card h3 {
+            font-size: 1.5rem;
+            color: #006699;
+            padding: 10px;
+        }
+
+        .solution-card p {
+            padding: 10px;
+            color: #555;
+            margin-bottom: 0px; /* Espacio entre los elementos de la lista */
+        }
+       
+        h2{
+             padding:30px 0px; /* 20px de espacio arriba y abajo, 10px a los lados */
+        }
+        /* Logo de flechas hacia la derecha */
+        .flechas {
+            background-color: #222;
+            height: 0px;
+            position: fixed;
+            top: 36px;
+            left: 1100px;
+            z-index: 1;
+            border-radius: 50%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .flechas :hover {
+            transform: scale(1.1);
+            transition: all 0.3s ease-in-out;
+        }
+         /* Logo de flechas hacia la izquierda */
+        .izquierda
+          {
+            background-color: #222;
+            height: 0px;
+            position: fixed;
+            top: 36px;
+            left: 145px;
+            z-index: 1;
+            border-radius: 50%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .izquierda :hover {
+            transform: scale(1.1);
+          
+    </style>
+</head>
+<body>
+   <!-- Menú de Navegación -->
+    <nav>
+          <link rel="stylesheet" href="logotipomenus.css">
+          <link rel="stylesheet" href="MENU.css">
+        <ul>
+            <li><a href="causas.html">Causas</a></li>
+            <li><a href="consecuencias.html">Consecuencias</a></li>
+            <li><a href="soluciones.html">SOLUCIONES</a></li>
+            <li><a href="como ayudar.html">¿Como ayudar?</a></li>
+            <li><a href="quienes somos.html">¿Quienes somos?</a></li>
+               
+                <!-- Imagen que funciona como enlace a la página de concecuencias -->
+<a href="consecuencias.html" class="izquierda">
+    <img src="flecha%20izquierda.jpg" alt="Ir al index">
+</a>
+       
+        <!-- Imagen que funciona como enlace a la página de concecuencias -->
+    <a href="como%20ayudar.html" class="flechas">
+        <img src="flecha%20derecha.jpg" alt="Ir al index">   
+    </a>
+        </ul>
+    </nav>
+
+    <!-- Logo Inicio -->
+    <a href="index.html" class="inicio-logo">
+        <img src="logotipo.jpeg" alt="Inicio">
+    </a>
+<header>
+    <h1>Soluciones para la Escasez de Agua</h1>
+</header>
+
+
+<div class="causas">
+    <section>
+        <h2 class="section-title">Causas y Efectos de la Escasez de Agua</h2>
+        <p>La escasez de agua es uno de los desafíos más grandes que enfrenta nuestro planeta. A medida que la población mundial crece, la demanda de agua aumenta, lo que pone presión sobre los recursos hídricos disponibles. Además, el cambio climático está alterando los patrones de precipitación, lo que provoca sequías prolongadas y la escasez de agua en muchas regiones.</p>
+       
+    </section>
+
+    <section>
+        <h2 class="section-title">Soluciones para Combatir la Escasez de Agua</h2>
+        <div class="solutions">
+            <div class="solution-card">
+                <img src="reciclaje.jpg" alt="Reciclaje de agua">
+                <h3>Reciclaje de Agua</h3>
+                <p>El reciclaje del agua es una excelente solución para la escasez. Se trata de tratar el agua usada para poder reutilizarla en diferentes actividades como riego agrícola y limpieza.</p>
+            </div>
+            <div class="solution-card">
+                <img src="captacion.jpg" alt="Captación de agua de lluvia">
+                <h3>Captación de Agua de Lluvia</h3>
+                <p>La recogida de agua de lluvia es una forma sostenible de aprovechar las precipitaciones para almacenar agua y utilizarla cuando sea necesario.</p>
+            </div>
+            <div class="solution-card">
+                <img src="desalacion.jpg" alt="Desalación de agua de mar">
+                <h3>Desalación de Agua de Mar</h3>
+                <p>La desalación de agua de mar se ha convertido en una solución viable en áreas costeras para proporcionar agua potable a las comunidades que no tienen acceso a fuentes de agua dulce.</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2 class="section-title">Educación y Concienciación</h2>
+        <p>Es fundamental educar a las personas sobre la importancia del ahorro de agua y cómo pueden contribuir a reducir el desperdicio. La concienciación puede ayudar a cambiar hábitos y aumentar el uso responsable del agua en todos los aspectos de la vida diaria.</p>
+        <img src="cuidado.jpg" style="width: 95%; height: 20%; margin-top: 70px;">
+    </section>
+
+    
+</div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Imagen con clase en enlace</title>
+  <style>
+    /* Estilo para el enlace */
+    .flechas {
+      text-decoration: none; /* Eliminar el subrayado del enlace */
+    }
+
+    /* Estilo para la imagen */
+    .imagen-flecha {
+      width: 50px; /* Tamaño de la imagen */
+      height: 50px;
+      transition: transform 0.3s ease; /* Efecto de transición al pasar el ratón */
+    }
+
+    /* Efecto al pasar el ratón por encima de la imagen */
+    .flechas:hover .imagen-flecha {
+      transform: scale(1.2); /* Aumenta el tamaño de la imagen al pasar el ratón */
+    }
+  </style>
+</head>
+<body>
+
+  <a href="index.html" class="flechas">
+    <img src="flecha.jpg" alt="Ir al index" class="imagen-flecha">
+  </a>
+
+</body>
+</html>
